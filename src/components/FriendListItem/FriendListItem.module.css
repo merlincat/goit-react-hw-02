@@ -1,0 +1,16 @@
+.itemInner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.isOnLine {
+  font-size: 16px;
+}
+.active {
+  composes: isOnLine;
+  color: rgb(10, 167, 114);
+}
+.disable {
+  composes: isOnLine;
+  color: tomato;
+}
