@@ -1,0 +1,19 @@
+.btnWrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: start;
+  gap: 8px;
+}
+.btn {
+  padding: 8px;
+  display: block;
+  text-transform: capitalize;
+  font-size: 24px;
+  border: 1px solid #999898;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: #f0d7d7;
+  transform: scale(110%);
+}
